@@ -9,3 +9,4 @@
 - Genreregel Tash Marcellis gecorrigeerd naar "Afrosoul, R&B, English with Portuguese and Spanish code switch" (Tash 17-09-2026; nergens "Dutch" op de site).
 - Artiestengrid naar vijf kolommen op breed scherm (`minmax(170px, 1fr)`), tegels als flex-kolom zodat de YouTube-knoppen op één lijn staan.
 - Drie uitrollen naar Cloudflare Pages; live index.html heeft md5 `ebe266772c4223dbccc53a3195c11e27`, gelijk aan werkbank en NAS.
+- Shop-knop in de hero wijst tijdelijk naar https://hearmarcellis.com (huidige Payhip-winkel), omdat marcellis.shop nog geen DNS heeft. Terugzetten naar https://marcellis.shop zodra dat domein op Payhip staat.
