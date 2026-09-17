@@ -144,7 +144,7 @@
 
   .artists {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
     gap: 22px;
   }
   .artist {
@@ -154,7 +154,10 @@
     padding: 16px;
     text-align: center;
     box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
   }
+  .artist .btn { align-self: center; }
   .photo {
     position: relative;
     width: 100%;
@@ -178,7 +181,7 @@
   }
   .photo.missing .initials { display: flex; }
   .artist h3 { font-size: 1.3rem; }
-  .artist .genre { margin: 6px 0 14px; color: var(--dim); font-size: 0.95rem; min-height: 2.9em; }
+  .artist .genre { margin: 6px 0 14px; color: var(--dim); font-size: 0.95rem; flex: 1; }
   .artist .btn { padding: 9px 18px; min-width: 0; font-size: 0.9rem; }
 
   .video {
@@ -260,7 +263,7 @@
       <article class="artist">
         <div class="photo"><img src="assets/tash.webp" alt="Tash Marcellis" width="800" height="800" loading="lazy" onerror="this.parentNode.classList.add('missing');this.remove()"><span class="initials">TM</span></div>
         <h3>Tash Marcellis</h3>
-        <p class="genre">Afrosoul, R&amp;B, Portuguese and Dutch soul</p>
+        <p class="genre">Afrosoul, R&amp;B, English with Portuguese and Spanish code switch</p>
         <a class="btn" href="https://www.youtube.com/@TashMarcellisMusic" target="_blank" rel="noopener">YouTube</a>
       </article>
       <article class="artist">
