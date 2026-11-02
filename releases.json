@@ -1,16 +1,149 @@
 [
   {
+    "title": "Dark Red",
+    "artist": "Tash Marcellis",
+    "date": "2026-11-01",
+    "youtube": "https://www.youtube.com/watch?v=bpp_Ik3MTK4",
+    "cover": ""
+  },
+  {
+    "title": "I Knew The Road",
+    "artist": "Tash Marcellis",
+    "date": "2026-11-01",
+    "youtube": "https://www.youtube.com/watch?v=lOiLSHkzahk",
+    "cover": ""
+  },
+  {
+    "title": "Room 13",
+    "artist": "Tash Marcellis",
+    "date": "2026-10-31",
+    "youtube": "https://www.youtube.com/watch?v=8k10X-9VrLk",
+    "cover": ""
+  },
+  {
+    "title": "I Want You Back",
+    "artist": "Tash Marcellis",
+    "date": "2026-10-31",
+    "youtube": "https://www.youtube.com/watch?v=EmWAAgxn0Kg",
+    "cover": ""
+  },
+  {
     "title": "Mami Manda",
     "artist": "Tash Marcellis",
-    "date": "",
+    "date": "2026-08-16",
     "youtube": "https://www.youtube.com/watch?v=iiq_RQTonj0",
+    "cover": ""
+  },
+  {
+    "title": "7 Is Not Enough",
+    "artist": "Tash Marcellis",
+    "date": "2026-08-11",
+    "youtube": "https://www.youtube.com/watch?v=wOt0sRD17EI",
+    "cover": ""
+  },
+  {
+    "title": "Say It Before I Go",
+    "artist": "Tash Marcellis",
+    "date": "2026-08-10",
+    "youtube": "https://www.youtube.com/watch?v=dUP58vjZsmQ",
+    "cover": ""
+  },
+  {
+    "title": "For The First Time",
+    "artist": "Tash Marcellis",
+    "date": "2026-05-17",
+    "youtube": "https://www.youtube.com/watch?v=dr5wdKUVbp4",
     "cover": ""
   },
   {
     "title": "Ice Queen",
     "artist": "Tash Marcellis",
     "date": "2026-09-18",
-    "youtube": "",
+    "youtube": "https://www.youtube.com/watch?v=wmnzlX07cX0",
+    "cover": ""
+  },
+  {
+    "title": "Fake Music",
+    "artist": "Mike Ellis",
+    "date": "2026-11-01",
+    "youtube": "https://www.youtube.com/watch?v=lTRLjZ7-YN0",
+    "cover": ""
+  },
+  {
+    "title": "The Hollow",
+    "artist": "Mike Ellis",
+    "date": "2026-10-31",
+    "youtube": "https://www.youtube.com/watch?v=dLtcbb04pvM",
+    "cover": ""
+  },
+  {
+    "title": "Twenty A Month",
+    "artist": "Mike Ellis",
+    "date": "2026-08-11",
+    "youtube": "https://www.youtube.com/watch?v=vP5chX7Pidg",
+    "cover": ""
+  },
+  {
+    "title": "Survive First",
+    "artist": "Mike Ellis",
+    "date": "2026-05-17",
+    "youtube": "https://www.youtube.com/watch?v=uGCtCdE_2kM",
+    "cover": ""
+  },
+  {
+    "title": "Almost Real",
+    "artist": "Jordan Marceau",
+    "date": "2026-11-01",
+    "youtube": "https://www.youtube.com/watch?v=UC_redh1Ztg",
+    "cover": ""
+  },
+  {
+    "title": "La Luz Que Dejaste",
+    "artist": "Jordan Marceau",
+    "date": "2026-11-01",
+    "youtube": "https://www.youtube.com/watch?v=N6DMvCj0Jjg",
+    "cover": ""
+  },
+  {
+    "title": "Lost Soul",
+    "artist": "Jordan Marceau",
+    "date": "2026-10-31",
+    "youtube": "https://www.youtube.com/watch?v=dGFRBZ6fg9Q",
+    "cover": ""
+  },
+  {
+    "title": "Between The Answers",
+    "artist": "Jordan Marceau",
+    "date": "2026-10-19",
+    "youtube": "https://www.youtube.com/watch?v=D3nPZyY3nBM",
+    "cover": ""
+  },
+  {
+    "title": "Mercy or Monster",
+    "artist": "Jordan Marceau",
+    "date": "2026-08-15",
+    "youtube": "https://www.youtube.com/watch?v=bPbGHX8DX8M",
+    "cover": ""
+  },
+  {
+    "title": "A Number On Every Song",
+    "artist": "Jordan Marceau",
+    "date": "2026-08-11",
+    "youtube": "https://www.youtube.com/watch?v=a6q0K1qluI8",
+    "cover": ""
+  },
+  {
+    "title": "Before Thursday",
+    "artist": "Jordan Marceau",
+    "date": "2026-08-09",
+    "youtube": "https://www.youtube.com/watch?v=CbLWZIqFDWE",
+    "cover": ""
+  },
+  {
+    "title": "Everybody's Pretending",
+    "artist": "Jordan Marceau",
+    "date": "2026-05-17",
+    "youtube": "https://www.youtube.com/watch?v=KNh8CHkElCY",
     "cover": ""
   }
 ]
