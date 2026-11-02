@@ -4,7 +4,7 @@
 # Uitrollen gebeurt vanuit een schone kopie: geen .git, en de interne Nederlandse
 # bestanden (Specificaties.md, Updates.md, dit script) gaan niet mee naar buiten.
 # De kopie wordt geteld voordat er iets naar boven gaat: een lege of halve map
-# uitrollen wist de site. Verwacht: index.html plus vijf webp's en het logo.
+# uitrollen wist de site. Verwacht: 10 html, style.css, site.js, releases.json, logo en vijf webp's.
 #
 # npx wrangler draait vanuit ~/Sites/Marcellis.link, want daar staat node_modules.
 set -euo pipefail
@@ -12,7 +12,7 @@ set -euo pipefail
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 WRANGLER_MAP="/home/tashmir/Sites/Marcellis.link"
 PROJECT="itsmarcellismusic"
-MINIMUM=6
+MINIMUM=20
 
 KOPIE="$(mktemp -d)"
 trap 'rm -rf "$KOPIE"' EXIT
