@@ -52,3 +52,11 @@ Ontbreekt een artiestenfoto, dan verwijdert `onerror` de img en toont de tegel e
 - Licht opent standaard, toggle werkt en onthoudt.
 - Alle knoppen landen op de juiste url.
 - Live marker: "Create. Love. Connect." en de vijf artiestennamen op de pages.dev-url.
+
+## Uitbouw 2026-11-02 (vervangt "Eén pagina" en "geen nav")
+
+- Pagina's: `index.html` (hero, The label, Artists, Latest), `artists.html`, vijf artiestenpagina's (`tash-marcellis.html`, `mike-ellis.html`, `jordan-marceau.html`, `rafa-marceau.html`, `julia-ellis.html`), `releases.html`, `contact.html`.
+- Gedeeld: `style.css` (zelfde palet en clamp-marges) en `site.js` (themaknop, releases renderen). Menubalk Home / Artists / Releases / Contact.
+- `releases.json`: lijst van `{title, artist, date (YYYY-MM-DD of leeg), youtube, cover}`. Lege titel wordt overgeslagen, lege datum toont "Date to be announced", lege cover toont de titel op een donkere tegel. Covers horen in `assets/covers/`. Artiestenpagina's tonen alleen hun eigen releases.
+- Contact: alleen kanalen die in de repo stonden, geen e-mailadres (stond nergens).
+- `uitrollen.sh`: telpoort naar 20 bestanden.
