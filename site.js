@@ -38,7 +38,7 @@
       ? '<img src="' + esc(r.cover) + '" alt="Cover of ' + esc(r.title) + '" loading="lazy" onerror="this.parentNode.textContent=this.alt.replace(\'Cover of \',\'\');">'
       : esc(r.title);
     var link = r.youtube
-      ? '<a class="btn" href="' + esc(r.youtube) + '" target="_blank" rel="noopener">Watch on YouTube</a>'
+      ? '<a class="btn" href="' + esc(r.youtube) + '" target="_blank" rel="noopener">Listen on YouTube</a>'
       : '';
     return '<article class="release"><div class="cover">' + cover + '</div>' +
       '<h3>' + esc(r.title) + '</h3>' +
