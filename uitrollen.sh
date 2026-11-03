@@ -6,11 +6,13 @@
 # De kopie wordt geteld voordat er iets naar boven gaat: een lege of halve map
 # uitrollen wist de site. Verwacht: 10 html, style.css, site.js, releases.json, logo en vijf webp's.
 #
-# npx wrangler draait vanuit ~/Sites/Marcellis.link, want daar staat node_modules.
+# npx wrangler draait vanuit ~/Sites/Marcellis.link als die er is (tashmir, daar staat
+# node_modules), anders vanuit de NAS-map Marcellis.Link (zerochill).
 set -euo pipefail
 
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 WRANGLER_MAP="/home/tashmir/Sites/Marcellis.link"
+[ -d "$WRANGLER_MAP" ] || WRANGLER_MAP="/mnt/nas/Marcellis.Link"
 PROJECT="itsmarcellismusic"
 MINIMUM=20
 
